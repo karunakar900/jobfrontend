@@ -1,0 +1,88 @@
+body {
+    background-color: yellow;
+}
+
+.head {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgreen;
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+#job {
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    float: right;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+#job:hover {
+    border-radius: 30px;
+}
+
+.ad {
+    width: 400px;
+    height: 530px;
+    border: 2px solid silver;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: none;
+}
+
+input {
+    margin-left: 70px;
+    width: 250px;
+    height: 25px;
+    margin-top: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+.posting {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#details {
+    width: 250px;
+    height: 35px;
+    /* background-color: green; */
+    margin-top: 10px;
+    margin-left: 70px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(10, 177, 238);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#details:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.logout1 {
+    width: 130px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
